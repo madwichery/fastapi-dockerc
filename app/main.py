@@ -15,7 +15,7 @@ app.include_router(users_router)
 
 @app.get("/")
 def read_root():
-    return {"message": "ok after CI/CD"}
+    return {"message": "ok after CI/CD 2"}
 
 @app.get("/scalar")
 def get_scalar():
